@@ -1,0 +1,55 @@
+1]Initialization:
+
+git init: Initializes a new Git repository in the current directory.
+
+2]Cloning:
+
+git clone <repository_url>: Creates a copy of a remote repository on your local machine.
+
+3]Viewing Changes:
+
+git status: Displays the status of changes as untracked, modified, or staged.
+git diff: Shows the differences between the working directory and the last commit.
+
+4]Branching:
+
+git branch: Lists all local branches.
+git branch <branch_name>: Creates a new branch.
+git checkout <branch_name>: Switches to the specified branch.
+git checkout -b <branch_name>: Creates and switches to a new branch in one command.
+git merge <branch_name>: Merges changes from the specified branch into the current branch.
+
+5]Remote Repositories:
+
+git remote: Lists remote repositories.
+git remote -v: Shows the URLs of remote repositories.
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+git push <remote_name> <branch_name>: Pushes changes to a remote repository.
+
+6]Undoing Changes:
+
+git reset <file>: Unstages changes for the specified file.
+git reset --hard: Discards all changes in the working directory.
+git revert <commit_sha>: Creates a new commit that undoes the changes made in the specified commit.
+
+7]History:
+
+git log: Displays a log of commits.
+git log --oneline: Displays a compact log of commits.
+git show <commit_sha>: Shows the changes introduced by a specific commit.
+
+8]Stashing:
+
+git stash: Temporarily saves changes not ready to be committed.
+git stash pop: Applies the most recently stashed changes and removes them from the stash.
+
+9]Configuration:
+
+git config --global user.name "Your Name": Sets your name for Git.
+git config --global user.email "you@example.com": Sets your email for Git.
+
+10]Adding and Committing Changes:
+
+git add <file>: Stages changes for the next commit.
+git add .: Stages all changes for the next commit.
+git commit -m "Commit message": Commits staged changes with a descriptive message.
